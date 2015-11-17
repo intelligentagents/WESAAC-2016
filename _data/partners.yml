@@ -1,11 +1,10 @@
 -
   elements:
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
+    - {name: "CNPQ", description: "CNPQ", link: "", imageUrl: "cnpq.png"}
+    - {name: "FAPERJ", description: "FAPERJ", link: "", imageUrl: "faperj.png"}
+    - {name: "CAPES", description: "CAPES", link: "", imageUrl: "capes.png"}
+    - {name: "IFAAMAS", description: "IFAAMAS", link: "", imageUrl: "ifaamas.png"}
+    - {name: "UFF", description: "Universidade Federal Fluminense", link: "", imageUrl: "uff.png"}
+    - {name: "UFAL", description: "Universidade Federal de Alagoas", link: "", imageUrl: "ufal.png"}
+    - {name: "IME", description: "Instituto do Meio Ambiente", link: "", imageUrl: "ime.png"}
+    - {name: "NAB", description: "Núcleo de Estudos em Biomassa e Gerenciamento de Água", link: "", imageUrl: "nab.jpg"}
