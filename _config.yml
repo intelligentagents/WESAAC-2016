@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
+title: "WESAAC 2016"
 email: "devfest@gdg.org.ua"
 description: "GDG DevFest is a set of events all around the world"
 baseurl: "/zeppelin"
@@ -198,7 +198,7 @@ logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "maceio2.jpg"
-directionDetailsTitle: "Get around Maceió"
+directionDetailsTitle: "Movimentando-se em Maceió"
 directionDetailsCards:
  - {title: "Do aeroporto", information: 'O aeroporto se encontra nos limites da cidade. É facilmente alcançável através de carro, transporte público ou táxi. Mais informações disponíveis no <a href="http://www.infraero.gov.br/index.php/aeroportos/alagoas/aeroporto-internacional-de-maceiozumbi-dos-palmares.html">website do aeroporto</a>.'}
  - {title: "Transporte público", information: 'Você pode efetuar o download de qualquer um dos apps disponíveis para transporte público para Maceió.'}
