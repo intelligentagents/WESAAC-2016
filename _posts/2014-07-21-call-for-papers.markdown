@@ -1,67 +1,66 @@
 ---
 layout: post
-title:  "Call for Papers"
+title:  "Chamada de Trabalhos"
 date:   2014-07-21 09:00:00
 isStaticPost: false
 ---
-GDG DevFest Ukraine 2014 will be held 24-25th of October in ancient city of Lviv. If you want to be part of this great event as a speaker you knocked at the good door.
+Além de trabalhos originais, realizados por pesquisadores experientes, o evento tem particular interesse em trabalhos realizados por estudantes de doutorado e de mestrado, assim como trabalhos de estudantes de graduação que tenham atingido bom estágio de desenvolvimento (em especial trabalhos de conclusão de curso e trabalhos de iniciação científica). Para isso serão criadas duas trilhas para submissão de trabalhos: (I) pesquisa e pós-graduação  e (II) graduação (iniciação científica e trabalhos de conclusão de curso).
 
-#### Presenters – who should speak at the DevFest Conference?
+#### Temas e tópicos
+Os trabalhos submetidos ao evento devem tratar de temas relativos a algum aspecto da definição e desenvolvimento de agentes ou sistemas de agentes, tais como (mas não restrito apenas a estes):<br><br>
 
-* developers (freelance and hired)
-* companies developing software (apps, tools, frameworks etc.)
-* research institutions with Google relevant activities
-* companies, organisations and individuals using Google technologies
+##### __Arquiteturas e Teorias para Agentes__
 
-If you belong to one of those groups you are cordially invited to submit a talk proposal (or a number of proposals). An independent program committee assesses the proposals and selects the actual conference talks.<br/>
+* Raciocínio
+* BDI
+* Revisão de crenças
 
-#### Themes and topics – what do we expect?
-Our team prepared set of interesting topics in but if you have any cool idea you want to share not from this list, feel free to submit it as well.
+##### __Comunicação de Agentes__
 
-##### Android
+* Linguagens
+* Protocolos
+* Ferramentas
 
-__Google I/O 2014__
+##### __Cooperação/Coordenação em SMA__
 
-* Material Design
-* Migration to ART
-* New Android Camera API
-* New Job Scheduler
-* Storage Access Framework
-* Elevation & Clipping
+* Negociação
+* Argumentação
+* Reputação
 
-__General__
+##### __Organização e Normas em SMA__
 
-* Android Continuous Integration
-* Loaders, Cursor Adapters
-* Android Animations
-* Patterns in Android development
+##### __Sistemas de Agentes e Redes Sociais__
 
-##### Web
+##### __Simulação Social e Simulação baseada em Agentes__
 
-* AngularJS (1x and 2.0)
-* Dart (AngularDart, server-side)
-* Polymer and WebComponents
-* Material Design in Web
-* ChromeOS (apps development)
-* Web Performance (tools, techniques, approaches)
+##### __Desenvolvimento baseado em SMA__
+
+* Linguagens
+* Plataformas
+* Metodologias
+
+##### __Especificação e Verificação de Sistemas de Agentes__
+
+##### __Aplicações de Agentes e Sistemas de Agentes__
+
+##### __Aspectos Pedagógicos de Agentes__
+
+##### __Aprendizagem em Sistemas de Agentes__
+
+<br><br><br>Pretendemos continuar a tradição de publicar versões estendidas dos melhores trabalhos do evento em periódico qualificado e indexar os proceedings no IEEE Xplore.
+
+Para a trilha de pesquisa e pós-graduação serão aceitos trabalhos em duas formas:
+
+* Trabalhos Completos, descrevendo pesquisas com resultados consolidados, com no máximo 12 páginas, para apresentação oral.
+* Resumos Estendidos, descrevendo trabalhos em andamento ou propostas iniciais, com no máximo 4 páginas, para apresentação em forma de pôster.
+
+Para a trilha de graduação serão aceitos apenas trabalhos na forma de resumo estendido, contendo no máximo 4 páginas, e que serão apresentados na forma de pôster.<br><br><br>
 
 
-##### Cloud
+#### Por favor submetam suas propostas [aqui](http://bit.ly/dfua-c4p).
+__Prazo final__ é September 1, 2014
 
-* Google Cloud Platform
-  * Compute Engine
-  * App Engine
-  * Storages (SQL, NoSQL, BigData)
-  * APIs
-* Go (as a language for a Cloud Ready Apps)
+__Note que:__ Todos os artigos serão revisados por três membros do comitê de programa que engloba os principais pesquisadores da área de agentes autônomos e sistemas multiagentes no país e também diversos pesquisadores estrangeiros.<br/>
 
-
-#### Please submit your proposals [here](http://bit.ly/dfua-c4p).
-__Deadline__ is September 1, 2014
-
-__Please note:__ There is no guarantee that a submission will be put onto the conference agenda!<br/>
-
-The program committee picks the most interesting talk proposals and informs the selected submitters until September 15, 2014.<br/>
-
-#### Any questions? 
-Email organizers at [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)
+#### Dúvidas?
+Envie um email para [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)
