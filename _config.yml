@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "WESAAC 2016"
 email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+description: "WESAAC 2016"
 baseurl: "/wesaac-2016"
 url: "http://intelligentagents.github.io"
 permalink: "/blog/:title"
