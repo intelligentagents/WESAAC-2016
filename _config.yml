@@ -43,27 +43,21 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/call-for-papers", text: "Call for Papers"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/hackathon/", text: "Tickets"}
- - {permalink: "/logistics/", text: "Location"}
- - {permalink: "/team/", text: "Team"}
-bottomNavigationLinks:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
-rightNavigationButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/blog/call-for-papers", text: "Chamada de Trabalhos"}
+ - {permalink: "/schedule/", text: "Programa"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+ - {permalink: "/hackathon/", text: "Inscrições"}
+ - {permalink: "/logistics/", text: "Local do Evento"}
+ - {permalink: "/team/", text: "Organização"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "maceio.jpg"
 heroTitle: "WESAAC 2016"
 eventDate: "01 a 03 de Junho de 2016, Maceió, AL, Brasil"
 eventDescription: "10º Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
 heroButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "http://bit.ly/dfua-c4p", text: "Seja um palestrante"}
+ - {permalink: "/#tickets", text: "Inscrições"}
 
 # About Block
 aboutTitle: "About GDG DevFest"
@@ -81,17 +75,17 @@ statisticBlock:
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Últimas notícias"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Veja todos os palestrantes"
 
 # Location Block
-locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
+locationBlockTitle: "Localização"
+eventLocationName: "Sala de Conferências"
 eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
 eventStreetAddress: "Av. Lourival de Melo Mota"
 eventAddressLocality: "Maceió"
@@ -112,11 +106,11 @@ twitterHashTag: "devfest"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+partnersTitle: "Apoio"
+partnersC4sponsorsButton: "Torne-se um patrocinador"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
+ticketsTitle: "Tabela de Preços"
 ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
@@ -162,21 +156,20 @@ socialLinks:
  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://www2.ic.uff.br/~wesaac2015/index.html", text: "WESAAC 2015"}
+   - {link: "http://www.ufal.edu.br/unidadeacademica/ic/", text: "IC - UFAL"}
  -
-  title: "Contacts"
+  title: "Contatos"
   links:
    - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "/cod/", text: "Código de Conduta"}
 
 # Blog
 blogTitle: "Latest news"
@@ -187,8 +180,9 @@ discusShortName: "devfestua"
 showSessions: true
 
 # Team Block
-teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+teamBlockTitle: "Sobre o WESAAC 2016"
+aboutUs: "O WESAAC 2016 será realizado em Maceió - AL, no campus A. C. Simões da Universidade Federal de Alagoas (UFAL), de 23 a 25 de Maio de 2016, com o apoio do Instituto de Computação (IC/UFAL).
+O principal objetivo da décima edição do WESAAC é integrar pesquisadores e estudantes de todos os níveis na área de Agentes e Sistemas de Agentes e divulgar as atividades dos diversos grupos de pesquisa do Brasil e da América Latina, possibilitando o intercâmbio de conhecimentos e experiências.  Para isso, o evento é constituído de uma combinação de Oficinas e Palestras (a parte “escola”), proferidas por pesquisadores de diferentes grupos de pesquisa na área tanto do Brasil quanto da América Latina, e apresentações de artigos completos e resumos estendidos (a parte “workshop”)."
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
