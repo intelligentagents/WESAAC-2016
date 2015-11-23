@@ -8,3 +8,4 @@
     - {name: "UFAL", description: "Universidade Federal de Alagoas", link: "", imageUrl: "ufal.png"}
     - {name: "IME", description: "Instituto do Meio Ambiente", link: "", imageUrl: "ime.png"}
     - {name: "NAB", description: "Núcleo de Estudos em Biomassa e Gerenciamento de Água", link: "", imageUrl: "nab.jpg"}
+    - {name: "4Tags", description: "Desenvolvimento de qualidade para aplicações Web, Mobile e Desktop", link: "http://4tags.io", imageUrl: "4tags.png"}
