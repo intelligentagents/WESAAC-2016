@@ -46,7 +46,7 @@ navigationLinks:
  - {permalink: "/blog/call-for-papers", text: "Chamada de Trabalhos"}
  - {permalink: "/schedule/", text: "Programa"}
  - {permalink: "/speakers/", text: "Palestrantes"}
- - {permalink: "/hackathon/", text: "Inscrições"}
+ - {permalink: "/tickets/", text: "Inscrições"}
  - {permalink: "/logistics/", text: "Local do Evento"}
  - {permalink: "/team/", text: "Organização"}
 
@@ -111,44 +111,42 @@ partnersC4sponsorsButton: "Torne-se um patrocinador"
 
 # Tickets Block
 ticketsTitle: "Tabela de Preços"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsInfo: "Ingressos dão acesso a todas as seções da conferência. Acomodações não estão inclusas no preço do ingresso."
 ticketsOffers:
  -
-  name: "Early Bird"
+  name: "Primeiro Lote"
   price: "350"
-  priceCurrency: "UAH"
+  priceCurrency: "Reais"
   ticketsNumber: "150"
   ribbon: "-5%"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
+  validFrom: "2016-08-25T10:00"
+  validThrough: "2016-09-30T23:59"
  -
-  name: "Last Chance"
+  name: "Segundo Lote"
   price: "450"
-  priceCurrency: "UAH"
+  priceCurrency: "Reais"
   ticketsNumber: "100"
   ribbon: "-20%"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
+  validFrom: "2016-10-01T00:00"
+  validThrough: "2016-10-23T23:59"
   disabled: true
  -
-  name: "Student"
+  name: "Estudante"
   price: "200"
-  priceCurrency: "UAH"
+  priceCurrency: "Reais"
   ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
+  validFrom: "2016-08-20T10:00"
+  validThrough: "2016-10-23T23:59"
   soldOutText: "Sold Out"
 
 # Footer
