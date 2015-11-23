@@ -1,6 +1,6 @@
 -
   date: "2016-05-23"
-  dateReadable: "May 23"
+  dateReadable: "23 de Maio"
   tracks:
     - {title: "", color: "#90be4e"}
     - {title: "", color: "#03a9f4"}
@@ -53,7 +53,7 @@
     }
 -
   date: "2016-05-24"
-  dateReadable: "May 24"
+  dateReadable: "24 de Maio"
   tracks:
     - {title: "", color: "#90be4e"}
     - {title: "", color: "#03a9f4"}
@@ -106,7 +106,7 @@
     }
 -
   date: "2016-05-25"
-  dateReadable: "May 25"
+  dateReadable: "25 de Maio"
   tracks:
     - {title: "", color: "#90be4e"}
     - {title: "", color: "#03a9f4"}
