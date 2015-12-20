@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <header id="top-header" class="top-header">
     <div class="overlay white-solid"></div>
     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
@@ -27,7 +29,7 @@
             {% endfor %}
         </ul>
         {% for rightNavigationButton in site.data.home-pt.rightNavigationButtons %}
-        <a href="{% if rightNavigationButton.permalink != null %} {{ rightNavigationButton.permalink | prepend: site.baseurl }} {% else %} {{ rightNavigationButton.link }} {% endif %}" class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm" {% if rightNavigationButton.link != null %}target=""{% endif %}>
+        <a href="{% if rightNavigationButton.permalink != null %} {{ rightNavigationButton.permalink | prepend: site.baseurl }}{% endif %}" class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm"
             <img width="15px" src="{{ site.baseurl }}/{{ rightNavigationButton.img }}" alt="" />
             {{ rightNavigationButton.text }}
         </a>
