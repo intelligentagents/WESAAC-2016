@@ -4,6 +4,7 @@
   surname: "Fonseca"
   company: "UFAL"
   title: "Coordenador Geral"
+  title-en: "General Chair"
   thumbnailUrl: baldoino.png
   team: true
   ribbon:
@@ -19,6 +20,7 @@
   surname: "Costa"
   company: "UFAL"
   title: "Coordenador Local"
+  title-en: "Local Arragements Chair"
   thumbnailUrl: evandro.jpeg
   team: true
   ribbon:
@@ -32,6 +34,7 @@
   surname: "Adamatti"
   company: "FURG"
   title: "Coordenadora do Comitê de Programa"
+  title-en: "Program Chair"
   thumbnailUrl: diana.jpg
   team: true
   ribbon:

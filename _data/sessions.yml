@@ -65,7 +65,7 @@
   complexity: "Expert"
 -
   id: 007
-  title: "Palestra 1"
+  title: "Keynote"
   description: ""
   subtype: keynote
   speakers: [3]
@@ -73,7 +73,7 @@
   complexity: "Expert"
 -
   id: 008
-  title: "Palestra 2"
+  title: "Keynote"
   description: ""
   subtype: keynote
   speakers: [4]
@@ -81,7 +81,7 @@
   complexity: "Expert"
 -
   id: 009
-  title: "Palestra 3"
+  title: "Keynote"
   description: ""
   subtype: keynote
   speakers: [5]
@@ -89,7 +89,7 @@
   complexity: "Expert"
 -
   id: 010
-  title: "Palestra 4"
+  title: "Keynote"
   description: ""
   subtype: keynote
   speakers: [6]
