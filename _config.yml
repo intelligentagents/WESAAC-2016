@@ -8,10 +8,9 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
-
 # Site Settings
 title: "WESAAC 2016"
-email: "devfest@gdg.org.ua"
+email: "wesaac2016@gmail.com"
 description: "WESAAC 2016"
 baseurl: "/wesaac-2016"
 url: "http://intelligentagents.github.io"
@@ -29,42 +28,10 @@ organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
-
-# Documents
-c4pUrl: "http://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
-
-
-# Navigation
-navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/blog/call-for-papers", text: "Chamada de Trabalhos"}
- - {permalink: "/schedule/", text: "Programa"}
- - {permalink: "/speakers/", text: "Palestrantes"}
- - {permalink: "/tickets/", text: "Inscrições"}
- - {permalink: "/logistics/", text: "Local do Evento"}
- - {permalink: "/team/", text: "Organização"}
-
-# Hero Block
-heroImage: "maceio.jpg"
-heroTitle: "WESAAC 2016"
-eventDate: "01 a 03 de Junho de 2016, Maceió, AL, Brasil"
-eventDescription: "10º Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações"
-heroButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Seja um palestrante"}
- - {permalink: "/#tickets", text: "Inscrições"}
-
-# About Block
-aboutTitle: "About GDG DevFest"
-aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -74,80 +41,13 @@ statisticBlock:
  - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
-# Latest News Block
-latestNewsTitle: "Últimas notícias"
-
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Palestrantes"
-rockstarSpeakersButtonText: "Veja todos os palestrantes"
 
 # Location Block
-locationBlockTitle: "Localização"
-eventLocationName: "Sala de Conferências"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "Av. Lourival de Melo Mota"
-eventAddressLocality: "Maceió"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
-eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
 eventPlaceCoordinates: "-9.552974, -35.776613"
 mapCenterCoordinates: "-9.552974, -35.776613"
 mapMobileCenterCoordinates: "-9.552974, -35.776613"
-
-# Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
-
-# Partners Block
-partnersTitle: "Apoio"
-partnersC4sponsorsButton: "Torne-se um patrocinador"
-
-# Tickets Block
-ticketsTitle: "Tabela de Preços"
-ticketsInfo: "Ingressos dão acesso a todas as seções da conferência. Acomodações não estão inclusas no preço do ingresso."
-ticketsOffers:
- -
-  name: "Primeiro Lote"
-  price: "350"
-  priceCurrency: "Reais"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2016-08-25T10:00"
-  validThrough: "2016-09-30T23:59"
- -
-  name: "Segundo Lote"
-  price: "450"
-  priceCurrency: "Reais"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2016-10-01T00:00"
-  validThrough: "2016-10-23T23:59"
-  disabled: true
- -
-  name: "Estudante"
-  price: "200"
-  priceCurrency: "Reais"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2016-08-20T10:00"
-  validThrough: "2016-10-23T23:59"
-  soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
@@ -161,13 +61,13 @@ footerBlocks:
    - {link: "http://www2.ic.uff.br/~wesaac2015/index.html", text: "WESAAC 2015"}
    - {link: "http://www.ufal.edu.br/unidadeacademica/ic/", text: "IC - UFAL"}
  -
-  title: "Contatos"
+  title: "Email"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:wesaac2016@gmail.com", text: "wesaac2016@gmail.com"}
  -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Código de Conduta"}
+  #title: "FAQ"
+  #links:
+  # - {permalink: "/cod/", text: "Código de Conduta"}
 
 # Blog
 blogTitle: "Latest news"
@@ -176,11 +76,6 @@ discusShortName: "devfestua"
 
 # Speakers List Block
 showSessions: true
-
-# Team Block
-teamBlockTitle: "Sobre o WESAAC 2016"
-aboutUs: "O WESAAC 2016 será realizado em Maceió - AL, no campus A. C. Simões da Universidade Federal de Alagoas (UFAL), de 23 a 25 de Maio de 2016, com o apoio do Instituto de Computação (IC/UFAL).
-O principal objetivo da décima edição do WESAAC é integrar pesquisadores e estudantes de todos os níveis na área de Agentes e Sistemas de Agentes e divulgar as atividades dos diversos grupos de pesquisa do Brasil e da América Latina, possibilitando o intercâmbio de conhecimentos e experiências.  Para isso, o evento é constituído de uma combinação de Oficinas e Palestras (a parte “escola”), proferidas por pesquisadores de diferentes grupos de pesquisa na área tanto do Brasil quanto da América Latina, e apresentações de artigos completos e resumos estendidos (a parte “workshop”)."
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
@@ -193,11 +88,3 @@ findWayFindFlight: "Find Flight"
 logisticsMapCenterCoordinates: "-9.552974, -35.776613"
 logisticsMapMobileCenterCoordinates: "-9.552974, -35.776613"
 logisticsMapAutoDirections: false
-
-# Logistics Direction Details Block
-directionDetailsImage: "maceio2.jpg"
-directionDetailsTitle: "Movimentando-se em Maceió"
-directionDetailsCards:
- - {title: "Do aeroporto", information: 'O aeroporto se encontra nos limites da cidade. É facilmente alcançável através de carro, transporte público ou táxi. Mais informações disponíveis no <a href="http://www.infraero.gov.br/index.php/aeroportos/alagoas/aeroporto-internacional-de-maceiozumbi-dos-palmares.html">website do aeroporto</a>.'}
- - {title: "Transporte público", information: 'Você pode efetuar o download de qualquer um dos apps disponíveis para transporte público para Maceió.'}
- - {title: "Hotéis", information: 'Maceió possui uma grande quantidade de ótimos hotéis. A grande maioria deste se encontra a beira mar. Mais informações estarão disponíveis mais tarde.'}

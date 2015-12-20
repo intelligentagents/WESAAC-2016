@@ -5,15 +5,15 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
             <div class="row">
                 <div class="pull-left">
-                    <h3>{{ site.data.home-pt.locationBlockTitle }}</h3>
+                    <h3>{{ site.data.home-en.locationBlockTitle }}</h3>
                     <ul>
-                        {% if site.data.home-pt.eventLocationName %}<li>{{ site.data.home-pt.eventLocationName }}</li>{% endif %}
-                        <li>{{ site.data.home-pt.eventStreetAddress }}, {{ site.data.home-pt.eventAddressLocality }}</li>
+                        {% if site.data.home-en.eventLocationName %}<li>{{ site.data.home-en.eventLocationName }}</li>{% endif %}
+                        <li>{{ site.data.home-en.eventStreetAddress }}, {{ site.data.home-en.eventAddressLocality }}</li>
                         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
                         <li>
-                            {% assign startTime = site.data.home-pt.eventStartTime | split: "T" %}
+                            {% assign startTime = site.data.home-en.eventStartTime | split: "T" %}
                             <time>{{ startTime[1] }}</time> -
-                            {% assign endTime = site.data.home-pt.eventEndTime | split: "T" %}
+                            {% assign endTime = site.data.home-en.eventEndTime | split: "T" %}
                             <time>{{ endTime[1] }}</time>
                         </li>
                     </ul>

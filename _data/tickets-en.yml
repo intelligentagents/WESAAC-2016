@@ -1,0 +1,39 @@
+# Tickets Block
+ticketsTitle: "Under construction"
+ticketsInfo: "Ingressos dão acesso a todas as seções da conferência. Acomodações não estão inclusas no preço do ingresso."
+ticketsOffers:
+ -
+  name: "Primeiro Lote"
+  price: "350"
+  priceCurrency: "Reais"
+  ticketsNumber: "150"
+  ribbon: "-5%"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2016-08-25T10:00"
+  validThrough: "2016-09-30T23:59"
+ -
+  name: "Segundo Lote"
+  price: "450"
+  priceCurrency: "Reais"
+  ticketsNumber: "100"
+  ribbon: "-20%"
+  featured: true
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2016-10-01T00:00"
+  validThrough: "2016-10-23T23:59"
+  disabled: true
+ -
+  name: "Estudante"
+  price: "200"
+  priceCurrency: "Reais"
+  ticketsNumber: "50"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2016-08-20T10:00"
+  validThrough: "2016-10-23T23:59"
+  soldOutText: "Sold Out"

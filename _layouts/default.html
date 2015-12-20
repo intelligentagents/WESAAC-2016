@@ -45,13 +45,13 @@ layout: compress
     }
     </script>
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
+    {% if page.permalink == '/' or page.permalink == '/en/' %}
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
         }
     </script>
-    {% elsif page.permalink == '/logistics/' %}
+    {% elsif page.permalink == '/logistics/' or page.permalink == '/en/logistics' %}
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
         <script type="text/javascript">
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
@@ -59,7 +59,7 @@ layout: compress
     {% endif %}
     <script>
         Waves.displayEffect();
-        {% if page.permalink == '/' %}
+        {% if page.permalink == '/' or page.permalink == '/en/' %}
             if ($(window).width() > 767) {
                 var googleMaps = 'index',
                     eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates | replace:' ','' }}),
@@ -107,7 +107,7 @@ layout: compress
                     }
                 }
             });
-        {% elsif page.permalink == '/logistics/' %}
+        {% elsif page.permalink == '/logistics/' or page.permalink == '/en/logistics/' %}
             var googleMaps = 'logistics',
                 eventPlace = new google.maps.LatLng({{ site.eventPlaceCoordinates }}),
                 centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),

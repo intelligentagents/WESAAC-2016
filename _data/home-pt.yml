@@ -1,0 +1,47 @@
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/blog/call-for-papers-en", text: "Chamada de Trabalhos"}
+ - {permalink: "/schedule/", text: "Programa"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+ - {permalink: "/tickets/", text: "Inscrições"}
+ - {permalink: "/team/", text: "Organização"}
+rightNavigationButtons:
+ - {permalink: "/en/", text: "EN", img: "img/flags/english.png"}
+ - {permalink: "/", text: "PT", img: "img/flags/brazil.png"}
+
+# Hero Block
+heroImage: "maceio.jpg"
+heroTitle: "WESAAC 2016"
+eventDate: "23 a 25 de Maio de 2016, Maceió, AL, Brasil"
+eventDescription: "10º Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações"
+heroButtons:
+ - {link: "/blog/call-for-papers", text: "Seja um palestrante"}
+ - {permalink: "/tickets/", text: "Inscrições"}
+
+# Team Block
+teamBlockTitle: "WESAAC 2016"
+aboutUs: "O WESAAC 2016 será realizado em Maceió - AL, no campus A. C. Simões da Universidade Federal de Alagoas (UFAL), de 23 a 25 de Maio de 2016, com o apoio do Instituto de Computação (IC/UFAL).
+O principal objetivo da décima edição do WESAAC é integrar pesquisadores e estudantes de todos os níveis na área de Agentes e Sistemas de Agentes e divulgar as atividades dos diversos grupos de pesquisa do Brasil e da América Latina, possibilitando o intercâmbio de conhecimentos e experiências.  Para isso, o evento é constituído de uma combinação de Oficinas e Palestras (a parte “escola”), proferidas por pesquisadores de diferentes grupos de pesquisa na área tanto do Brasil quanto da América Latina, e apresentações de artigos completos e resumos estendidos (a parte “workshop”)."
+
+# Latest News Block
+latestNewsTitle: "Últimas notícias"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Veja todos os palestrantes"
+
+# Location Block
+locationBlockTitle: "Localização"
+eventLocationName: "Sala de Conferências"
+eventStreetAddress: "Av. Lourival de Melo Mota"
+eventAddressLocality: "Maceió"
+eventStartTime: "2014-10-25T10:00"
+eventDoorTime: "09:00"
+eventEndTime: "2014-10-25T20:00"
+
+# Partners Block
+partnersTitle: "Apoio"
+partnersC4sponsorsButton: "Torne-se um patrocinador"

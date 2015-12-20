@@ -1,0 +1,83 @@
+<!-- Begin Team List-->
+<section id="judges" class="judges image-section parallax;">
+    <div style="background-color: #FFF!important;" class="overlay solid-overlay"></div>
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3 style="color: #333!important;">Header committee</h3>
+            <div class="row">
+                {% assign animationDelay = 0 %} {% for team in site.data.team %}
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                <div class="judge col-md-{{ colWidth }} col-xs-6 animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                    <div class="flow-img img-circle judge-img" style="background-image: url({{ site.baseurl }}/img/people/{{ team.thumbnailUrl }})"></div>
+                    <p style="color: #333!important;" class="name">{{ team.name }} {{ team.surname }}</p>
+                    <span style="color: #333!important;" class="company">{{ team.company }}</span>
+                    <span style="color: #333!important;" class="company">{{ team.title }}</span>
+                </div>
+                {% assign animationDelay = animationDelay | plus:500 %}
+                {% assign check = forloop.index | modulo:2 %}
+                {% if check == 0 %}
+                <div class="clearfix visible-xs"></div>
+                {% endif %}
+                {% endfor %}
+
+                <h3 style="color: #333!important;">Advisory committee</h3>
+                <p style="color: #333!important;" class="name">Diana Francisca Adamatti (FURG)</p>
+                <p style="color: #333!important;" class="name">Anarosa Brandão (USP)</p>
+                <p style="color: #333!important;" class="name">Rejane Frozza (UNISC)</p>
+                <p style="color: #333!important;" class="name">Gustavo Alberto Giménez Lugo (UTFPR)</p>
+                <p style="color: #333!important;" class="name">Jomi Fred Hubner (UFSC)</p>
+                <p style="color: #333!important;" class="name">Rafael Bordini (UFRGS)</p>
+
+                <h3 style="color: #333!important;">Program committee</h3>
+                <p style="color: #333!important;" class="name">Adamatti, Diana - FURG (Brasil)</p>
+                <p style="color: #333!important;" class="name">Aguiar, Marilton Sanchotene de - UFPel (Brasil)</p>
+                <p style="color: #333!important;" class="name">Alencar, Fernanda - UFPE (Brasil)</p>
+                <p style="color: #333!important;" class="name">Balsa, Joao - Univ. Lisboa (Portugal)</p>
+                <p style="color: #333!important;" class="name">Barbosa, Raquel - FURG (Brasil)</p>
+                <p style="color: #333!important;" class="name">Bazzan, Ana L. C. - UFRGS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Boissier, Olivier - EMSE (França)</p>
+                <p style="color: #333!important;" class="name">Bordini, Rafael Heitor - PUCRS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Brandão, Anarosa Alves Franco - USP (Brasil)</p>
+                <p style="color: #333!important;" class="name">Campos, André - UFRN (Brasil)</p>
+                <p style="color: #333!important;" class="name">Carine Webber - UCS, (Brasil)</p>
+                <p style="color: #333!important;" class="name">Castro, Paulo André L. - ITA (Brasil)</p>
+                <p style="color: #333!important;" class="name">Choren, Ricardo - IME/RJ (Brasil)</p>
+                <p style="color: #333!important;" class="name">Cortés, Mariela Inés - UECE (Brasil)</p>
+                <p style="color: #333!important;" class="name">Costa, Antonio Carlos Rocha - FURG (Brasil)</p>
+                <p style="color: #333!important;" class="name">Coutinho, Luciano - UFMA (Brasil)</p>
+                <p style="color: #333!important;" class="name">David, Nuno - ISCTE (Portugal)</p>
+                <p style="color: #333!important;" class="name">Dimuro, Graçaliz - FURG (Brasil)</p>
+                <p style="color: #333!important;" class="name">Ferreira Jr., Paulo R. - UFPel (Brasil)</p>
+                <p style="color: #333!important;" class="name">Frozza, Rejane - UNISC (Brasil)</p>
+                <p style="color: #333!important;" class="name">Giménez-Lugo, Gustavo - UTFPR (Brasil)</p>
+                <p style="color: #333!important;" class="name">Gonçalves, Eder - FURG (Brasil)</p>
+                <p style="color: #333!important;" class="name">Hubner, Jomi Fred - UFSC (Brasil)</p>
+                <p style="color: #333!important;" class="name">Jaques, Patricia - UNISINOS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Koch, Fernando - IBM Research (Brasil)</p>
+                <p style="color: #333!important;" class="name">Leite, Joao - Universidade Nova de Lisboa (Portugal)</p>
+                <p style="color: #333!important;" class="name">Lemke, Ana Paula - IFRS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Lorenzi, Fabiana - UFRGS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Marchi, Jerusa - UFSC (Brasil)</p>
+                <p style="color: #333!important;" class="name">Meneguzzi, Felipe - PUCRS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Moreira, Alvaro - UFRGS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Nunes, Ingrid - UFRGS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Okuyama, Fabio - IFRS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Rabelo, Ricardo J. - UFSC (Brasil)</p>
+                <p style="color: #333!important;" class="name">Ribeiro, Marcelo Blois - GE Global Research (Brasil)</p>
+                <p style="color: #333!important;" class="name">Ricci, Alessandro - University of Bologna (Italia)</p>
+                <p style="color: #333!important;" class="name">Rodrigues, Maira - UFMG (Brasil)</p>
+                <p style="color: #333!important;" class="name">Rosa, Paulo - IME/RJ (Brasil)</p>
+                <p style="color: #333!important;" class="name">Sichman, Jaime Simão - USP (Brasil)</p>
+                <p style="color: #333!important;" class="name">Silva, Joao Luis - UCS (Brasil)</p>
+                <p style="color: #333!important;" class="name">Silva, Viviane - UFF (Brasil)</p>
+                <p style="color: #333!important;" class="name">Silveira, Ricardo Azambuja - UFSC (Brasil)</p>
+                <p style="color: #333!important;" class="name">Simari, Guillermo Ricardo - Universidad Nacional del Sur (Argentina)</p>
+                <p style="color: #333!important;" class="name">Tacla, Cesar A. - UTFPR (Brasil)</p>
+                <p style="color: #333!important;" class="name">Tedesco, Patricia - UFPE (Brasil)</p>
+                <p style="color: #333!important;" class="name">Trigo, Paulo - ISEL (Portugal)</p>
+                <p style="color: #333!important;" class="name">Vasconcelos, Wamberto - University of Aberdeen (UK)</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Team List -->

@@ -1,0 +1,46 @@
+# Navigation
+navigationLinks:
+ - {permalink: "/en/", text: "Home"}
+ - {permalink: "/blog/call-for-papers-en", text: "Call for Papers"}
+ - {permalink: "/en/schedule/", text: "Schedule"}
+ - {permalink: "/en/speakers/", text: "Speakers"}
+ - {permalink: "/en/tickets/", text: "Registration"}
+ - {permalink: "/en/team/", text: "Team"}
+rightNavigationButtons:
+ - {permalink: "/en/", text: "EN", img: "img/flags/english.png"}
+ - {permalink: "/", text: "PT", img: "img/flags/brazil.png"}
+
+# Hero Block
+heroImage: "maceio.jpg"
+heroTitle: "WESAAC 2016"
+eventDate: "May 23- 25, 2016, Maceió, AL, Brazil"
+eventDescription: "10th Software Agents, Environemts and Applications School (WESAAC)"
+heroButtons:
+ - {link: "/blog/call-for-papers", text: "Become a speaker"}
+ - {permalink: "/en/tickets/", text: "Registration"}
+
+# Team Block
+teamBlockTitle: "WESAAC 2016"
+aboutUs: "The Software Agents, Environments and Applications School (WESAAC) provides a forum for researchers, practitioners and educators to present and discuss the most recent innovations, trends, experiences and concerns in the field of software agents. The overall goal of the WESAAC is to provide an opportunity for researchers and students (both under-graduate and graduate) to discuss their goals, methods, and results of their research. The School aims to provide students with useful guidance on various aspects of the research from established researchers and the other student attendees. It also helps participants to establish a research and social network of their peers. The WESAAC School is in its 10th edition and it will be held at the Institute of Computing, Federal University of Alagoas (UFAL) in Maceió, Brazil."
+
+# Latest News Block
+latestNewsTitle: "Latest News"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Conference Room"
+eventStreetAddress: "Av. Lourival de Melo Mota"
+eventAddressLocality: "Maceió"
+eventStartTime: "2014-10-25T10:00"
+eventDoorTime: "09:00"
+eventEndTime: "2014-10-25T20:00"
+
+# Partners Block
+partnersTitle: "Support"
+partnersC4sponsorsButton: "Become a supporter"

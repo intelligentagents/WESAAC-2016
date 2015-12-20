@@ -2,7 +2,7 @@
 <section id="partners" class="partners">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.data.home-pt.partnersTitle }}</h3>
+            <h3>{{ site.data.home-en.partnersTitle }}</h3>
             {% for partner in site.data.partners %}
             <ul class="list-inline">
                 {% for element in partner.elements %}
@@ -14,7 +14,7 @@
                 {% endfor %}
             </ul>
             {% endfor %}
-            <a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.data.home-pt.partnersC4sponsorsButton }}</a>
+            <a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.data.home-en.partnersC4sponsorsButton }}</a>
         </div>
     </div>
 </section>
