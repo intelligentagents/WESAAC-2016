@@ -19,7 +19,10 @@
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.data.home-pt.bottomNavigationLinks %}
             <li>
-                <a href="{% if bottomNavigationLink.permalink != null %} {{ bottomNavigationLink.permalink | prepend: site.baseurl }} {% else %} {{ bottomNavigationLink.link }} {% endif %}" {% if bottomNavigationLink.link != null %}target="_blank"{% endif %}>{{ bottomNavigationLink.text }}</a>
+                <a href="{% if bottomNavigationLink.permalink != null %} {{ bottomNavigationLink.permalink | prepend: site.baseurl }} {% else %} {{ bottomNavigationLink.link }} {% endif %}" {% if bottomNavigationLink.link != null %}target="_blank"{% endif %}>
+                  <img width="15px" src="{{ site.baseurl }}/{{ bottomNavigationLink.img }}" alt="" />
+                  {{ bottomNavigationLink.text }}
+                </a>
             </li>
             {% endfor %}
         </ul>

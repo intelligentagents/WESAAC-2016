@@ -9,6 +9,9 @@ navigationLinks:
 rightNavigationButtons:
  - {permalink: "/en/", text: "EN", img: "img/flags/english.png"}
  - {permalink: "/", text: "PT", img: "img/flags/brazil.png"}
+bottomNavigationLinks:
+ - {permalink: "/en/", text: "EN", img: "img/flags/english.png"}
+ - {permalink: "/", text: "PT", img: "img/flags/brazil.png"}
 
 # Hero Block
 heroImage: "maceio.jpg"
