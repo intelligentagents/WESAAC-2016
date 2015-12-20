@@ -3,7 +3,7 @@
     <div style="background-color: #FFF!important;" class="overlay solid-overlay"></div>
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3 style="color: #333!important;">Header committee</h3>
+            <h3 style="color: #333!important;">WESAAC 2016 Organization and Coordination</h3>
             <div class="row">
                 {% assign animationDelay = 0 %} {% for team in site.data.team %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
@@ -11,7 +11,7 @@
                     <div class="flow-img img-circle judge-img" style="background-image: url({{ site.baseurl }}/img/people/{{ team.thumbnailUrl }})"></div>
                     <p style="color: #333!important;" class="name">{{ team.name }} {{ team.surname }}</p>
                     <span style="color: #333!important;" class="company">{{ team.company }}</span>
-                    <span style="color: #333!important;" class="company">{{ team.title }}</span>
+                    <span style="color: #333!important;" class="company">{{ team.title-en }}</span>
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
                 {% assign check = forloop.index | modulo:2 %}
@@ -20,7 +20,7 @@
                 {% endif %}
                 {% endfor %}
 
-                <h3 style="color: #333!important;">Advisory committee</h3>
+                <h3 style="color: #333!important;">Advising Committee</h3>
                 <p style="color: #333!important;" class="name">Diana Francisca Adamatti (FURG)</p>
                 <p style="color: #333!important;" class="name">Anarosa Brandão (USP)</p>
                 <p style="color: #333!important;" class="name">Rejane Frozza (UNISC)</p>
@@ -28,7 +28,7 @@
                 <p style="color: #333!important;" class="name">Jomi Fred Hubner (UFSC)</p>
                 <p style="color: #333!important;" class="name">Rafael Bordini (UFRGS)</p>
 
-                <h3 style="color: #333!important;">Program committee</h3>
+                <h3 style="color: #333!important;">Program Committee</h3>
                 <p style="color: #333!important;" class="name">Adamatti, Diana - FURG (Brasil)</p>
                 <p style="color: #333!important;" class="name">Aguiar, Marilton Sanchotene de - UFPel (Brasil)</p>
                 <p style="color: #333!important;" class="name">Alencar, Fernanda - UFPE (Brasil)</p>
