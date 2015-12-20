@@ -8,9 +8,6 @@
             <h1 style="font-weight: 275!important;">{{ heroText[0] }}{{ heroText[1] }}</h1>
             <p style="font-weight: 300!important;">{{ site.data.home-en.eventDescription }}</p>
             <p style="font-weight: 300!important;">{{ site.data.home-en.eventDate }}</p>
-            {% for button in site.data.home-en.heroButtons %}
-            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-            {% endfor %}
         </div>
     </div>
     <a href="#about" class="explore">
