@@ -45,7 +45,7 @@ Viviane Torres da Silva - UFF, Brasil
 
 #### Paper Submission
 
-Researchers and students are invited to submit papers in Portuguese or English, as a PDF file formatted according to the SBC style (compulsory) available at <http://www.sbc.org.br/index.php?option=com_jdownloads&Itemid=195&task=view.download&catid=32&cid=38>.
+Researchers and students are invited to submit papers in Portuguese or English, as a PDF file formatted according to the SBC style (compulsory) available at <http://www.sbc.org.br/documentos-da-sbc/summary/169-templates-para-artigos-e-capitulos-de-livros/878-modelosparapublicaodeartigos>.
 
 The proceedings are published electronically (with an ISBN). Three separate tracks have been created for paper submission: (i) full papers, (ii) short papers (i.e., extended abstracts), and (iii) short papers written by undergraduate students.
 
