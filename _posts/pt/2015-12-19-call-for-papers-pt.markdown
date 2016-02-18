@@ -5,6 +5,10 @@ date:   2015-12-19 09:00:00
 isStaticPost: false
 ---
 
+# EXTEND DEADLINE:
+
+#### Abstract Submission Deadline: February 26, 2016 <br> Paper Submission Deadline: February 29, 2016
+
 # WESAAC-2016
 
 #### 10th Workshop-School on Agents, Environments, and Applications

@@ -5,11 +5,15 @@ date:   2015-12-20 09:00:00
 isStaticPost: false
 ---
 
+### EXTEND DEADLINE:
+
+##### Abstract Submission Deadline: February 26, 2016 <br> Paper Submission Deadline: February 29, 2016 <br><br><br><br>
+
 # WESAAC-2016
 
 #### 10th Workshop-School on Agents, Environments, and Applications
 
-#### Universidade Federal de Alagoas <br> 23-25 of May 2016
+#### Universidade Federal de Alagoas <br> 23-25 of May 2016 <br><br>
 
 #### Motivation
 
