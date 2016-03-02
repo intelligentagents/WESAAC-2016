@@ -7,7 +7,7 @@ isStaticPost: false
 
 # EXTEND DEADLINE:
 
-#### Abstract Submission Deadline: February 26, 2016 <br> Paper Submission Deadline: February 29, 2016
+##### Abstract Submission Deadline: March 03, 2016 <br> Paper Submission Deadline: March 04, 2016 <br><br><br><br>
 
 # WESAAC-2016
 
