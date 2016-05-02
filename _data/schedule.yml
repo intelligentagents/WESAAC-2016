@@ -7,49 +7,49 @@
     - {title: "", color: "#e91e63"}
   timeslots:
     - {
-    	startTime: "08:00",
-    	endTime: "08:30",
-    	sessionIds: [102]
-    }
-    - {
     	startTime: "08:30",
-    	endTime: "10:00",
-    	sessionIds: [001, 002]
+    	endTime: "09:00",
+    	sessionIds: [credenciamento, abertura]
     }
     - {
-      startTime: "10:00",
+    	startTime: "09:00",
     	endTime: "10:30",
-    	sessionIds: [100]
+    	sessionIds: [oficina_1]
     }
     - {
         startTime: "10:30",
-        endTime: "12:30",
-        sessionIds: [001, 002]
+    	endTime: "11:00",
+    	sessionIds: [coffee_break]
     }
     - {
-    	startTime: "12:30",
-    	endTime: "14:00",
-    	sessionIds: [101]
+        startTime: "11:00",
+        endTime: "12:00",
+        sessionIds: [oficina_1]
     }
     - {
-      startTime: "14:00",
-    	endTime: "15:10",
-    	sessionIds: [007]
+    	startTime: "12:00",
+    	endTime: "13:30",
+    	sessionIds: [almoco]
     }
     - {
-      startTime: "15:10",
-    	endTime: "16:10",
-    	sessionIds: [011]
+        startTime: "13:30",
+    	endTime: "15:00",
+    	sessionIds: [palestra_1]
     }
     - {
-      startTime: "16:30",
+        startTime: "15:00",
+    	endTime: "15:30",
+    	sessionIds: [coffee_break]
+    }
+    - {
+        startTime: "15:30",
     	endTime: "17:30",
-    	sessionIds: [100]
+    	sessionIds: [sessao_tecnica_1]
     }
     - {
-      startTime: "17:30",
-    	endTime: "18:40",
-    	sessionIds: [008]
+        startTime: "17:30",
+    	endTime: "19:00",
+    	sessionIds: [sessao_posteres_1]
     }
 -
   date: "2016-05-24"
@@ -60,49 +60,44 @@
     - {title: "", color: "#e91e63"}
   timeslots:
     - {
-    	startTime: "08:00",
-    	endTime: "08:30",
-    	sessionIds: [102]
-    }
-    - {
-    	startTime: "08:30",
-    	endTime: "10:00",
-    	sessionIds: [003, 004]
-    }
-    - {
-      startTime: "10:00",
-    	endTime: "10:30",
-    	sessionIds: [100]
+        startTime: "09:00",
+        endTime: "10:30",
+        sessionIds: [oficina_2]
     }
     - {
         startTime: "10:30",
-        endTime: "12:30",
-        sessionIds: [003, 004]
+        endTime: "11:00",
+        sessionIds: [coffee_break]
     }
     - {
-    	startTime: "12:30",
-    	endTime: "14:00",
-    	sessionIds: [101]
+        startTime: "11:00",
+        endTime: "12:00",
+        sessionIds: [oficina_2]
     }
     - {
-      startTime: "14:00",
-    	endTime: "15:10",
-    	sessionIds: [009]
+        startTime: "12:00",
+        endTime: "13:30",
+        sessionIds: [almoco]
     }
     - {
-      startTime: "15:10",
-    	endTime: "16:10",
-    	sessionIds: [012]
+        startTime: "13:30",
+        endTime: "15:00",
+        sessionIds: [palestra_2]
     }
     - {
-      startTime: "16:30",
-    	endTime: "17:30",
-    	sessionIds: [100]
+        startTime: "15:00",
+        endTime: "15:30",
+        sessionIds: [coffee_break]
+    }
+    - {
+        startTime: "15:30",
+        endTime: "17:30",
+        sessionIds: [sessao_tecnica_2]
     }
     - {
       startTime: "17:30",
-    	endTime: "18:40",
-    	sessionIds: [103]
+        endTime: "19:00",
+        sessionIds: [sessao_posteres_2]
     }
 -
   date: "2016-05-25"
@@ -113,47 +108,14 @@
     - {title: "", color: "#e91e63"}
   timeslots:
     - {
-    	startTime: "08:00",
-    	endTime: "08:30",
-    	sessionIds: [102]
+        startTime: "09:00",
+        endTime: "11:00",
+        sessionIds: [sessao_tecnica_3]
     }
     - {
-    	startTime: "08:30",
-    	endTime: "10:00",
-    	sessionIds: [005, 006]
+        startTime: "11:00",
+        endTime: "12:00",
+        sessionIds: [coffee_break, encerramento]
     }
-    - {
-      startTime: "10:00",
-    	endTime: "10:30",
-    	sessionIds: [100]
-    }
-    - {
-        startTime: "10:30",
-        endTime: "12:30",
-        sessionIds: [005, 006]
-    }
-    - {
-    	startTime: "12:30",
-    	endTime: "14:00",
-    	sessionIds: [101]
-    }
-    - {
-      startTime: "14:00",
-    	endTime: "15:10",
-    	sessionIds: [010]
-    }
-    - {
-      startTime: "15:10",
-    	endTime: "16:10",
-    	sessionIds: [013]
-    }
-    - {
-      startTime: "16:30",
-    	endTime: "17:30",
-    	sessionIds: [100]
-    }
-    - {
-      startTime: "17:30",
-    	endTime: "18:40",
-    	sessionIds: [104]
-    }
+
+

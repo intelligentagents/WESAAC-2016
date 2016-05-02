@@ -1,121 +1,114 @@
 -
-  id: 100
+  id: coffee_break
   title: "Coffee Break"
+  title_en: "Coffee Break"
   service: true
-  description: "O melhor momento para se relacionar com os palestrantes e colegas"
 -
-  id: 101
+  id: almoco
   title: "Almoço"
+  title_en: "Lunch"
   service: true
 -
-  id: 102
+  id: credenciamento
   title: "Credeciamento"
-  service: true
-  description: Recepção e credeciamento dos participantes
--
-  id: 103
-  title: Sessão de Pôsteres
-  service: true
-  description: Apresentação de outros trabalhos de desenvolvimento (foco em alunos de graduação)
--
-  id: 104
-  title: Sessão de encerramento
+  title_en: "Accreditation"
   service: true
 -
-  id: 001
+  id: abertura
+  title: "Sessão de Abertura"
+  title_en: "Opening Session"
+  service: true
+-
+  id: encerramento
+  title: "Sessão de encerramento"
+  title_en: "Closing Session"
+  service: true
+-
+  id: oficina_1
   title: "Oficina 1"
-  description: ""
+  title_en: "Workshop 1"
+  description: "Holonic Multiagent System: From Modeling to Implementation"
   subtype: workshop
-  language: en
-  complexity: "Intermediate"
 -
-  id: 002
+  id: oficina_2
   title: "Oficina 2"
-  description: ""
-  subtype: presentation
-  language: en
-  complexity: "Intermediate"
+  title_en: "Workshop 2"
+  description: "Practical Reasoning"
+  subtype: workshop
 -
-  id: 003
-  title: "Oficina 3"
-  description: ""
-  subtype: presentation
-  language: en
-  complexity: "Intermediate"
--
-  id: 004
-  title: "Oficina 4"
-  description: ""
+  id: palestra_1
+  title: "Palestra 1"
+  title_en: "Keynote 1"
+  description: "Holonic Multiagent System: From Modeling to Implementation"
   subtype: keynote
-  language: uk
-  complexity: "Beginner"
+  #speakers: [3]
 -
-  id: 005
-  title: "Oficina 5"
-  description: ""
+  id: palestra_2
+  title: "Palestra 2"
+  title_en: "Keynote 2"
+  description: "Practical Reasoning"
   subtype: keynote
-  language: en
-  complexity: "Expert"
+  #speakers: [4]
 -
-  id: 006
-  title: "Oficina 6"
-  description: ""
-  subtype: keynote
-  language: en
-  complexity: "Expert"
--
-  id: 007
-  title: "Keynote"
-  description: ""
-  subtype: keynote
-  speakers: [3]
-  language: en
-  complexity: "Expert"
--
-  id: 008
-  title: "Keynote"
-  description: ""
-  subtype: keynote
-  speakers: [4]
-  language: en
-  complexity: "Expert"
--
-  id: 009
-  title: "Keynote"
-  description: ""
-  subtype: keynote
-  speakers: [5]
-  language: en
-  complexity: "Expert"
--
-  id: 010
-  title: "Keynote"
-  description: ""
-  subtype: keynote
-  speakers: [6]
-  language: en
-  complexity: "Expert"
--
-  id: 011
+  id: sessao_tecnica_1
   title: "Sessão Técnica 1"
-  description: ""
+  title_en: "Technical Session 1"
+  description: "<strong>15:30-16:00</strong> Uma Abordagem de Transferência de Calor Utilizando Teoria Constructal e Modelagem Baseada em Agentes, de Paola Andrea Avendaño Montoya, Newton Nyamasege Marube, Diana Francisca Adamatti e Jeferson Souza <br><br>
+
+                <strong>16:00-16:30</strong> Modelo de Reputação Fuzzy Aplicado a um Sistema Multiagente, de Henrique Rodrigues, Diana F. Adamatti, Graçaliz Dimuro, Glenda Dimuro e Esteban Jerez <br><br>
+
+                <strong>16:30-17:00</strong> Uma análise comparativa da especificação formal em sistemas multi-agente: os desafios e as exigências uma década depois, de Newton Nyamasege Marube, Narúsci Bastos, Eder Mateus Gonçalves, Jader Saldanha e Carlos Quadros <br><br>
+
+                <strong>17:00-17:30</strong> Um Jogo Dramático baseado na Teoria do Drama para Autorregulação de Processos de Trocas Sociais, de Renata G. Wotter, Diana F. Adamatti, Graçaliz Pereira Dimuro, Lucas Tubino Bonifácio Costa e Nelson de Faria Traversi"
   subtype: keynote
   speakers: [7]
-  language: en
-  complexity: "Expert"
 -
-  id: 012
+  id: sessao_tecnica_2
   title: "Sessão Técnica 2"
-  description: ""
+  title_en: "Technical Session 2"
+  description: "<strong>15:30-16:00</strong> A Multi-Agent Extension of Hierarchical Task Network, de Rafael C. Cardoso e Rafael H. Bordini <br><br>
+
+                <strong>16:00-16:30</strong> Failure Prediction based on Monitoring Sequences of Actions and Action Duration, de Giovani Farias, Ramon Fraga Pereira, Lucas Hilgert, Felipe Meneguzzi, Renata Vieira e Rafael H. Bordini <br><br>
+
+                <strong>16:30-17:00</strong> Processo de desenvolvimento de uma ferramenta gráfica de apoio a metodologia PrometheusAEOlus, de Rafhael Rodrigues Cunha, Diana F. Adamatti e Cléo Zanella Billa <br><br>
+
+                <strong>17:00-17:30</strong> Retrospective, Relevance, and Trends of Software Agents, Environments and Applications School (WESAAC), de Enyo Gonçalves, Mariela Cortés, Marcos Oliveira, Nécio Veras, Mário Falcão e Jaelson Castro"
   subtype: keynote
   speakers: [7]
-  language: en
-  complexity: "Expert"
 -
-  id: 013
+  id: sessao_tecnica_3
   title: "Sessão Técnica 3"
-  description: ""
+  title_en: "Technical Session 3"
+  description: "<strong>09:00-09:30</strong> Utilização de grau de confiança entre agentes para alocação de vagas em um Smart Parking, de Lucas Fernando Souza de Castro, Gleifer Vaz Alves e André Pinz Borges <br><br>
+
+                <strong>09:30-10:00</strong> Tomada de Decisão em Sistemas Multiagente utilizando personalidade e emoções, de Gerson Antonio Urban Filho e Diana F. Adamatti <br><br>
+
+                <strong>10:00-10:30</strong> Uma Abordagem Baseada em Agentes para um Sistema de Classificação de Timbres, de Eduardo Porto Teixeira, Diana F. Adamatti and Eder M. Gonçalves <br><br>
+
+                <strong>10:30-11:00</strong> A multi-agent system with auctions for the selection of patients in a dental clinic, de Rodrigo Rabenhorst e Cleo Billa"
   subtype: keynote
   speakers: [7]
-  language: en
-  complexity: "Expert"
+-
+  id: sessao_posteres_1
+  title: "Sessão de Pôsteres 1"
+  title_en: "Poster Session 1"
+  description: "<ul>
+                  <li><p>A Conceptual Middleware for Adaptive Sanctioning in Normative Multi-Agent Systems, Igor Conrado Alves de Lima, Luis Gustavo Nardin e Jaime Simão Sichman</p></li><br>
+                  <li><p>Integrando Requisitos Organizacionais à Modelagem de Sistemas Multiagente Normativos, de Emmanuel Sávio Silva Freire e Mariela Cortés</p></li><br>
+                  <li><p>Rede Bayesiana de Emoções e sua Implementação em um Jogo Computacional baseado em Agentes, de Gustavo Fleck, Diana Adamatti e Adriano Werhli</p></li><br>
+                  <li><p>Modelando a Curva de Crescimento do Mycobacterium tuberculosis com a utilização de simulação multiagente: um estudo de caso para a variável quorum sensing, de Marcilene Moraes, Albano Borba, Diana F. Adamatti e Adriano Werhli</p></li><br>
+                  <li><p>Modelagem da Teoria da Identidade Social Utilizando Sistemas Multiagentes, de Jader Saldanha, Narúsci Bastos, Cleo Billa, Graçaliz Dimuro e Diana F. Adamatti</p></li>
+                </ul>"
+  subtype: keynote
+-
+  id: sessao_posteres_2
+  title: "Sessão de Pôsteres 2"
+  title_en: "Poster Session 2"
+  description: "<ul>
+                 <li><p>An Analysis of Javino Middleware for Robotic Platforms Using Jason and JADE Frameworks, de Dayana Da Silva Junger, João Victor Guinelli e Carlos Eduardo Pantoja</p></li><br>
+                 <li><p>Protocolo para diálogos argumentativos no auxílio da decisão consensual em sistemas multiagentes, de Ayslan Possebom, Mariela Morveli Espinoza e Cesar A. Tacla</p></li><br>
+                 <li><p>Implementação de Recursos em um Smart Parking baseado em Sistemas Multiagente, de Felipe Felix Ducheiko, Lucas Fernando Souza de Castro e Gleifer Vaz Alves</p></li><br>
+                 <li><p>Checagem de Consistência de Modelos de Sistemas Multiagentes Normativos Utilizando MAS-ML Tool, de Igor Nogueira, Mariela Cortés e Enyo Gonçalves</p></li><br>
+               </ul>"
+  subtype: keynote
+
