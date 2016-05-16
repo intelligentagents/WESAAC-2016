@@ -1,12 +1,4 @@
 -
-  id: 3
-  name: "Augusto"
-  surname: "Loureiro da Costa"
-  company: "UFBA, Brasil"
-  bio: ""
-  thumbnailUrl: augusto.jpeg
-  rockstar: true
--
   id: 4
   name: "Sebastian"
   surname: "Rodriguez"
@@ -21,12 +13,4 @@
   company: "RMIT University, Australia"
   bio: ""
   thumbnailUrl: sardina.jpg
-  rockstar: true
--
-  id: 6
-  name: "Viviane"
-  surname: "Torres da Silva"
-  company: "UFF, Brasil"
-  bio: ""
-  thumbnailUrl: viviane.jpg
   rockstar: true
