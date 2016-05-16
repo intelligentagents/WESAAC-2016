@@ -14,7 +14,7 @@
     - {
     	startTime: "09:00",
     	endTime: "10:30",
-    	sessionIds: [oficina_1]
+    	sessionIds: [oficina_1_pt_1]
     }
     - {
         startTime: "10:30",
@@ -24,7 +24,7 @@
     - {
         startTime: "11:00",
         endTime: "12:00",
-        sessionIds: [oficina_1]
+        sessionIds: [oficina_1_pt_2]
     }
     - {
     	startTime: "12:00",

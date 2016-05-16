@@ -24,91 +24,221 @@
   title_en: "Closing Session"
   service: true
 -
-  id: oficina_1
-  title: "Oficina 1"
-  title_en: "Workshop 1"
-  description: "Holonic Multiagent System: From Modeling to Implementation"
+  id: oficina_1_pt_1
+  title: "Oficina 1 - Parte I"
+  title_en: "Workshop 1 - Part I"
+  description: "<i>Practical Reasoning and BDI Agents</i><br><br>
+                In this part of the course, we will explore the foundations of the theory of
+                practical reasoning and how it has influenced a popular AI model of agency
+                that takes its inspiration from the processes that seem to take place as we
+                decide what to do."
   subtype: workshop
+  speakers: [5]
+  big: true
+-
+  id: oficina_1_pt_2
+  title: "Oficina 1 - Parte II"
+  title_en: "Workshop 1 - Part II"
+  description: "BDI Agent-oriented Programming and Software Engineering<br><br>
+                We will review the major aspects of designing and developing multi-agent
+                systems under the Belief-Desire-Intention programming paradigm. We will
+                cover the identification of system goals, agent capabilities, data sources,
+                agent interactions, use cases, scenarios, agent types and agent interaction
+                diagrams, and how these will inform a concrete BDI application built from
+                beliefs, events, messages, plans, etc. While the course relies on the
+                PROMETHEUS agent methodology and the Java-based JACK agent development
+                environment (both with roots in Melbourne, Australia), the concepts and
+                features discussed are shared across other similar approaches and technologies."
+  subtype: workshop
+  speakers: [5]
+  big: true
 -
   id: oficina_2
   title: "Oficina 2"
   title_en: "Workshop 2"
-  description: "Practical Reasoning"
+  description: "SARL<br><br>
+                SARL is a general-purpose agent-oriented language. SARL aims at providing the
+                fundamental abstractions for dealing with concurrency, distribution,
+                interaction, decentralization, reactivity, autonomy and dynamic reconfiguration.
+                These high-level features are now considered as the major requirements for an
+                easy and practical implementation of modern complex software applications. We
+                are convinced that the agent-oriented paradigm holds the keys to effectively
+                meet this challenge.<br><br>
+                Considering the variety of existing approaches and meta-models in the field of
+                agent-oriented engineering and more generally multi-agent systems, our approach
+                remains as generic as possible and highly extensible to easily integrate new
+                concepts and features. The language is platform- and architecture-independent.<br><br>
+                This course presents SARL’s main concepts and provides an introduction to
+                developing MAS with SARL."
   subtype: workshop
+  speakers: [4]
+  big: true
 -
   id: palestra_1
   title: "Palestra 1"
   title_en: "Keynote 1"
-  description: "Holonic Multiagent System: From Modeling to Implementation"
+  description: "Behavior Composition: Synthesis of Devices and Agents<br><br>
+                With computers now present in everyday devices like mobile phones,
+                credit cards, cars and planes or places like homes, offices and
+                factories, the trend is to build embedded complex systems from a
+                collection of simple components. Thus a complex room entertainment
+                system for a smart house can be ``realised'' (i.e., implemented) by
+                suitably coordinating the behaviours (i.e., the operational logic) of
+                hundreds (or thousands) of simple devices and artifacts---lights,
+                phones, blinds, game consoles, a vacuum cleaner, video cameras, TVs, a
+                floor cleaning robot, etc.---installed in the house. Such embedded
+                systems can provide services that range from simple tasks, such as
+                ``turn on the lights in the bedroom,'' to more complex ones, such as
+                ``bring me a cup of coffee'' or ``handle house intruder'' (by tracking
+                and taking pictures of the intruder, toggling lights rapidly, and
+                alerting the owner by email or phone).<br><br>
+                The problem of automatically synthesising, that is, building, such an
+                embedded controller-coordinator for a given desired target complex
+                system is called the behaviour composition problem and is the focus of
+                this talk. The composition synthesis task is important in that it can
+                be recast in a variety of forms within several sub-areas of Artificial
+                Intelligence and Computer Science, including robot ecologies,
+                ubiquitous robots or intelligent spaces, web-services, component-based
+                development (CBD), agent programming, and automated planning. The talk
+                will cover the standard formalization of the problem, several
+                extensions proposed in recent literature, and the main computational
+                techniques to solve it. The progress and attention achieved in the
+                last few years on behavior composition draws from recent important
+                results in areas such as verification, reasoning about action, and
+                generalized planning, among others."
   subtype: keynote
-  #speakers: [3]
+  speakers: [5]
+  big: true
 -
   id: palestra_2
   title: "Palestra 2"
   title_en: "Keynote 2"
-  description: "Practical Reasoning"
+  description: "Holonic Multiagent System: From Modeling to Implementation<br><br>
+                Complex systems are often characterized by networks of numerous
+                interactiving entities. Their behavior is the result of the non-linear
+                aggregation of the local interactions of theirs components. Multi-Agents
+                Systems have become a natural tool for modeling, simulating and
+                programming complex systems. Indeed, Multi-Agents Systems are composed
+                of autonomous, reactive, proactive and interacting entities called
+                agents engaged in the realization of a joint goals. Both types of systems
+                are notably studied by their organization dynamics and  the emergence of
+                organizational structures. However, in Complex Systems we usually find a
+                great number of entities in interaction, acting at different levels of
+                abstraction.<br><br>
+                Analysis and modeling techniques able to represent several levels of
+                abstraction and computation models that are capable to self-organize and
+                adapt to environmental adversities are needed to overcome this issue. Among
+                the possible solutions, Holonic Multi-Agent Systems (HMAS) are a promising
+                paradigm. HMAS are based upon self-similar entities, called holons, which
+                define an organizational structure called holarchy. HMAS have shown to be a
+                convenient way to engineer complex and open systems in various application
+                domains.<br><br>
+                In this talk, after a brief introduction of HMAS, we will present an
+                organizational modeling framework, the ASPECS methodology, and we will
+                discuss how to implement Holonic Multiagent Systems. Finally, some
+                interesting areas for future research will be presented."
   subtype: keynote
-  #speakers: [4]
+  speakers: [4]
+  big: true
 -
   id: sessao_tecnica_1
   title: "Sessão Técnica 1"
   title_en: "Technical Session 1"
-  description: "<strong>15:30-16:00</strong> Uma Abordagem de Transferência de Calor Utilizando Teoria Constructal e Modelagem Baseada em Agentes, de Paola Andrea Avendaño Montoya, Newton Nyamasege Marube, Diana Francisca Adamatti e Jeferson Souza <br><br>
+  description: "<strong>15:30-16:00</strong> Uma Abordagem de Transferência de Calor Utilizando
+                Teoria Constructal e Modelagem Baseada em Agentes, de Paola Andrea Avendaño
+                Montoya, Newton Nyamasege Marube, Diana Francisca Adamatti e Jeferson Souza <br><br>
 
-                <strong>16:00-16:30</strong> Modelo de Reputação Fuzzy Aplicado a um Sistema Multiagente, de Henrique Rodrigues, Diana F. Adamatti, Graçaliz Dimuro, Glenda Dimuro e Esteban Jerez <br><br>
+                <strong>16:00-16:30</strong> Modelo de Reputação Fuzzy Aplicado a um Sistema
+                Multiagente, de Henrique Rodrigues, Diana F. Adamatti, Graçaliz Dimuro, Glenda
+                Dimuro e Esteban Jerez <br><br>
 
-                <strong>16:30-17:00</strong> Uma análise comparativa da especificação formal em sistemas multi-agente: os desafios e as exigências uma década depois, de Newton Nyamasege Marube, Narúsci Bastos, Eder Mateus Gonçalves, Jader Saldanha e Carlos Quadros <br><br>
+                <strong>16:30-17:00</strong> Uma análise comparativa da especificação formal em
+                sistemas multi-agente: os desafios e as exigências uma década depois, de Newton
+                Nyamasege Marube, Narúsci Bastos, Eder Mateus Gonçalves, Jader Saldanha e Carlos
+                Quadros <br><br>
 
-                <strong>17:00-17:30</strong> Um Jogo Dramático baseado na Teoria do Drama para Autorregulação de Processos de Trocas Sociais, de Renata G. Wotter, Diana F. Adamatti, Graçaliz Pereira Dimuro, Lucas Tubino Bonifácio Costa e Nelson de Faria Traversi"
+                <strong>17:00-17:30</strong> Um Jogo Dramático baseado na Teoria do Drama para
+                Autorregulação de Processos de Trocas Sociais, de Renata G. Wotter,
+                Diana F. Adamatti, Graçaliz Pereira Dimuro, Lucas Tubino Bonifácio Costa e
+                Nelson de Faria Traversi"
   subtype: keynote
-  speakers: [7]
 -
   id: sessao_tecnica_2
   title: "Sessão Técnica 2"
   title_en: "Technical Session 2"
-  description: "<strong>15:30-16:00</strong> A Multi-Agent Extension of Hierarchical Task Network, de Rafael C. Cardoso e Rafael H. Bordini <br><br>
+  description: "<strong>15:30-16:00</strong> A Multi-Agent Extension of Hierarchical Task Network,
+                de Rafael C. Cardoso e Rafael H. Bordini <br><br>
 
-                <strong>16:00-16:30</strong> Failure Prediction based on Monitoring Sequences of Actions and Action Duration, de Giovani Farias, Ramon Fraga Pereira, Lucas Hilgert, Felipe Meneguzzi, Renata Vieira e Rafael H. Bordini <br><br>
+                <strong>16:00-16:30</strong> Failure Prediction based on Monitoring Sequences of
+                Actions and Action Duration, de Giovani Farias, Ramon Fraga Pereira, Lucas Hilgert,
+                Felipe Meneguzzi, Renata Vieira e Rafael H. Bordini <br><br>
 
-                <strong>16:30-17:00</strong> Processo de desenvolvimento de uma ferramenta gráfica de apoio a metodologia PrometheusAEOlus, de Rafhael Rodrigues Cunha, Diana F. Adamatti e Cléo Zanella Billa <br><br>
+                <strong>16:30-17:00</strong> Processo de desenvolvimento de uma ferramenta gráfica
+                de apoio a metodologia PrometheusAEOlus, de Rafhael Rodrigues Cunha,
+                Diana F. Adamatti e Cléo Zanella Billa <br><br>
 
-                <strong>17:00-17:30</strong> Retrospective, Relevance, and Trends of Software Agents, Environments and Applications School (WESAAC), de Enyo Gonçalves, Mariela Cortés, Marcos Oliveira, Nécio Veras, Mário Falcão e Jaelson Castro"
+                <strong>17:00-17:30</strong> Retrospective, Relevance, and Trends of Software Agents,
+                Environments and Applications School (WESAAC), de Enyo Gonçalves, Mariela Cortés,
+                Marcos Oliveira, Nécio Veras, Mário Falcão e Jaelson Castro"
   subtype: keynote
-  speakers: [7]
 -
   id: sessao_tecnica_3
   title: "Sessão Técnica 3"
   title_en: "Technical Session 3"
-  description: "<strong>09:00-09:30</strong> Utilização de grau de confiança entre agentes para alocação de vagas em um Smart Parking, de Lucas Fernando Souza de Castro, Gleifer Vaz Alves e André Pinz Borges <br><br>
+  description: "<strong>09:00-09:30</strong> Utilização de grau de confiança entre agentes para
+                alocação de vagas em um Smart Parking, de Lucas Fernando Souza de Castro,
+                Gleifer Vaz Alves e André Pinz Borges <br><br>
 
-                <strong>09:30-10:00</strong> Tomada de Decisão em Sistemas Multiagente utilizando personalidade e emoções, de Gerson Antonio Urban Filho e Diana F. Adamatti <br><br>
+                <strong>09:30-10:00</strong> Tomada de Decisão em Sistemas Multiagente utilizando
+                personalidade e emoções, de Gerson Antonio Urban Filho e Diana F. Adamatti <br><br>
 
-                <strong>10:00-10:30</strong> Uma Abordagem Baseada em Agentes para um Sistema de Classificação de Timbres, de Eduardo Porto Teixeira, Diana F. Adamatti and Eder M. Gonçalves <br><br>
+                <strong>10:00-10:30</strong> Uma Abordagem Baseada em Agentes para um Sistema
+                de Classificação de Timbres, de Eduardo Porto Teixeira, Diana F. Adamatti and
+                Eder M. Gonçalves <br><br>
 
-                <strong>10:30-11:00</strong> A multi-agent system with auctions for the selection of patients in a dental clinic, de Rodrigo Rabenhorst e Cleo Billa"
+                <strong>10:30-11:00</strong> A multi-agent system with auctions for the
+                selection of patients in a dental clinic, de Rodrigo Rabenhorst e Cleo Billa"
   subtype: keynote
-  speakers: [7]
 -
   id: sessao_posteres_1
   title: "Sessão de Pôsteres 1"
   title_en: "Poster Session 1"
-  description: "<ul>
-                  <li><p>A Conceptual Middleware for Adaptive Sanctioning in Normative Multi-Agent Systems, Igor Conrado Alves de Lima, Luis Gustavo Nardin e Jaime Simão Sichman</p></li><br>
-                  <li><p>Integrando Requisitos Organizacionais à Modelagem de Sistemas Multiagente Normativos, de Emmanuel Sávio Silva Freire e Mariela Cortés</p></li><br>
-                  <li><p>Rede Bayesiana de Emoções e sua Implementação em um Jogo Computacional baseado em Agentes, de Gustavo Fleck, Diana Adamatti e Adriano Werhli</p></li><br>
-                  <li><p>Modelando a Curva de Crescimento do Mycobacterium tuberculosis com a utilização de simulação multiagente: um estudo de caso para a variável quorum sensing, de Marcilene Moraes, Albano Borba, Diana F. Adamatti e Adriano Werhli</p></li><br>
-                  <li><p>Modelagem da Teoria da Identidade Social Utilizando Sistemas Multiagentes, de Jader Saldanha, Narúsci Bastos, Cleo Billa, Graçaliz Dimuro e Diana F. Adamatti</p></li>
-                </ul>"
+  description: '<ul style="list-style: disc; padding-left: 40px;">
+                  <li><h5 class="slot-title">A Conceptual Middleware for Adaptive Sanctioning in Normative Multi-Agent
+                  Systems, Igor Conrado Alves de Lima, Luis Gustavo Nardin e Jaime Simão Sichman</h5></li><br>
+
+                  <li><h5 class="slot-title">Integrando Requisitos Organizacionais à Modelagem de Sistemas Multiagente
+                  Normativos, de Emmanuel Sávio Silva Freire e Mariela Cortés</h5></li><br>
+
+                  <li><h5 class="slot-title">Rede Bayesiana de Emoções e sua Implementação em um Jogo Computacional
+                  baseado em Agentes, de Gustavo Fleck, Diana Adamatti e Adriano Werhli</h5></li><br>
+
+                  <li><h5 class="slot-title">Modelando a Curva de Crescimento do Mycobacterium tuberculosis com a
+                  utilização de simulação multiagente: um estudo de caso para a variável quorum
+                  sensing, de Marcilene Moraes, Albano Borba, Diana F. Adamatti e Adriano Werhli</h5></li><br>
+
+                  <li><h5 class="slot-title">Modelagem da Teoria da Identidade Social Utilizando Sistemas Multiagentes,
+                  de Jader Saldanha, Narúsci Bastos, Cleo Billa, Graçaliz Dimuro e Diana F. Adamatti</h5></li>
+                </ul>'
   subtype: keynote
 -
   id: sessao_posteres_2
   title: "Sessão de Pôsteres 2"
   title_en: "Poster Session 2"
-  description: "<ul>
-                 <li><p>An Analysis of Javino Middleware for Robotic Platforms Using Jason and JADE Frameworks, de Dayana Da Silva Junger, João Victor Guinelli e Carlos Eduardo Pantoja</p></li><br>
-                 <li><p>Protocolo para diálogos argumentativos no auxílio da decisão consensual em sistemas multiagentes, de Ayslan Possebom, Mariela Morveli Espinoza e Cesar A. Tacla</p></li><br>
-                 <li><p>Implementação de Recursos em um Smart Parking baseado em Sistemas Multiagente, de Felipe Felix Ducheiko, Lucas Fernando Souza de Castro e Gleifer Vaz Alves</p></li><br>
-                 <li><p>Checagem de Consistência de Modelos de Sistemas Multiagentes Normativos Utilizando MAS-ML Tool, de Igor Nogueira, Mariela Cortés e Enyo Gonçalves</p></li><br>
-               </ul>"
+  description: '<ul style="list-style: disc; padding-left: 40px;">
+                 <li><h5 class="slot-title">An Analysis of Javino Middleware for Robotic Platforms Using Jason and
+                 JADE Frameworks, de Dayana Da Silva Junger, João Victor Guinelli e
+                 Carlos Eduardo Pantoja</h5></li><br>
+
+                 <li><h5 class="slot-title">Protocolo para diálogos argumentativos no auxílio da decisão consensual
+                 em sistemas multiagentes, de Ayslan Possebom, Mariela Morveli Espinoza e
+                 Cesar A. Tacla</h5></li><br>
+
+                 <li><h5 class="slot-title">Implementação de Recursos em um Smart Parking baseado em Sistemas Multiagente,
+                 de Felipe Felix Ducheiko, Lucas Fernando Souza de Castro e Gleifer Vaz Alves</h5></li><br>
+
+                 <li><h5 class="slot-title">Checagem de Consistência de Modelos de Sistemas Multiagentes Normativos
+                 Utilizando MAS-ML Tool, de Igor Nogueira, Mariela Cortés e Enyo Gonçalves</h5></li><br>
+               </ul>'
   subtype: keynote
 
