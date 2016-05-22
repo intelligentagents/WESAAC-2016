@@ -1,0 +1,8 @@
+---
+layout: post-en
+title:  "Anais WESAAC 2016"
+date:   2016-05-22 09:00:00
+isStaticPost: false
+---
+
+#### Click [here](http://intelligentagents.github.io/wesaac-2016/assets/anais-wessac2016.pdf) to open the file.
