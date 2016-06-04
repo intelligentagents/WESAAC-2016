@@ -4,5 +4,5 @@
     - {name: "IFAAMAS", description: "IFAAMAS", link: "", imageUrl: "ifaamas.png"}
     - {name: "FURG", description: "Universidade Federal do Rio Grande", link: "http://www.furg.br", imageUrl: "furg.png"}
     - {name: "UFAL", description: "Universidade Federal de Alagoas", link: "http://www.ufal.edu.br", imageUrl: "ufal.png"}
-    - {name: "IC - UFAL", description: "Instituto de Computação - UFAL", link: "http://ic.ufal.br", imageUrl: "ic_ufal.png"}
+    - {name: "IC - UFAL", description: "Instituto de Computação - UFAL", link: "http://ic.ufal.br", imageUrl: "photo.jpg.png"}
     - {name: "4Tags", description: "Desenvolvimento de qualidade para aplicações Web, Mobile e Desktop", link: "http://4tags.io", imageUrl: "4tags.png"}
